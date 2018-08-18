@@ -1,3 +1,4 @@
+
 var numbersOfSquares = 6;
 var colors = [];
 var pickedColor;
@@ -22,7 +23,7 @@ function SetupSquares(){
         squares[i].addEventListener("click", function () {
             //grab color of clicked square
             var clickedColor = this.style.background;
-            ;
+            
             //compare color to picked color
             if (clickedColor === pickedColor) {
 
